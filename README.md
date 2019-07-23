@@ -26,7 +26,7 @@ $document = $parser->parse();
 var_dump($document);
 ```
 
-4.0 Changelog
+2.0 Changelog
 -------------
 * **[2019-07-23]** Versão inicial
 
