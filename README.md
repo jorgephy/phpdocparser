@@ -8,13 +8,13 @@ PhpDocParser class
 
 PhpDocParser é uma classe simples para apontar anotação ou documentação da classe ou de ficheiro `(.php, etc.)`.
 Note que a documentação do ficheiro sempre começa com 
-`/**
+```/**
  * @package string
  * @author string
  * @license string
  * @version mixed
  * @copyright string
- */`
+ */```
 
 
 1.0 Exemplo
