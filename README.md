@@ -1,4 +1,4 @@
-Php Document Parser
+PhpDoc parser with token_get_all
 ====================
 
 PhpDocParser class
@@ -7,7 +7,14 @@ PhpDocParser class
 ----------------
 
 PhpDocParser é uma classe simples para apontar anotação ou documentação da classe ou de ficheiro `(.php, etc.)`.
-Note que a documentação do ficheiro sempre começa com `@`
+Note que a documentação do ficheiro sempre começa com 
+/**
+ * @package string
+ * @author string
+ * @license string
+ * @version mixed
+ * @copyright string
+ */
 
 
 1.0 Exemplo
@@ -17,7 +24,7 @@ Note que a documentação do ficheiro sempre começa com `@`
 use Phy\PhpDocParser;
 
 //Nome do ficheiro e a sua localização
-$file = "/path/PhpDocParser.php";
+$file = "/path/file.php";
 
 $parser = new PhpDocParser($file);
 $document = $parser->parse();
